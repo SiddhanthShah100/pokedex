@@ -1,0 +1,142 @@
+* {
+  overflow-y: hidden;
+}
+
+.search-container {
+  margin-top: 5px;
+}
+
+.bgImagePokedex {
+  width: 100vw;
+  height: 90vh;
+  background-image: url('../Images/bg3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pokedex-box {
+  border: 2px solid rgb(240, 52, 70);
+  background-color: rgb(240, 52, 70);
+  border-radius: 10px;
+  padding: 10px;
+  width: 280px;
+  margin-top: 3%;
+  margin-left: 38%;
+  text-align: center;
+  border-top-right-radius: 15%;
+  animation: zoomIn 0.8s;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.pokedex-box2 {
+  border: 2px solid rgb(240, 52, 70);
+  background-color: #fff;
+  border-radius: 10px;
+  width: 235px;
+  height: 350px;
+  margin-top: 3%;
+  margin-left: 5%;
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.Imagebox {
+  border: 2px solid rgb(112, 107, 107);
+  padding: 10px;
+  width: 231px;
+  height: 180px;
+  margin-top: 3%;
+  margin-left: 0%;
+  text-align: center;
+}
+
+.pokedex-body img {
+  max-width: 100%;
+  margin-top: -10px;
+}
+
+.pokedex-body p {
+  margin-bottom: 0px;
+}
+
+.camera {
+  width: 40px;
+  height: 40px;
+  margin-top: 0%;
+  margin-right: 100%;
+}
+
+.plus {
+  width: 70px;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.pokemon-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}  
+
+@media screen and (max-width: 768px) {
+  .pokedex-box {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .pokedex-box2 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .Imagebox {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pokedex-box {
+    padding: 5px;
+    width: 350px;
+    margin-left: 20px;
+  }
+
+  .pokedex-box2 {
+    padding: 5px;
+    height: 400px;
+  }
+}
+
+
+/* .square {
+  width: 180px;
+  height: 30px;
+  display: block;
+  padding-left: 0%;
+}
+
+.square-button{
+  width: 180px;
+  height: 30px;
+  padding-left: 0%;
+  padding-top: 0%;
+} */
+
+

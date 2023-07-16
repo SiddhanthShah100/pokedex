@@ -1,0 +1,63 @@
+.mainb {
+  width: 40%;
+  height: 10%;
+  border-radius: 15px;
+  background-color: #f5deb3bd;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.animated-text {
+  animation: zigZag 5s;
+}
+
+.button-animation {
+  animation: zoomIn 0.8s;
+}
+
+@keyframes zigZag {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(10px) translateY(-10px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-10px) translateY(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainb {
+    width: 60%;
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mainb {
+    width: 80%;
+    font-size: medium;
+  }
+}
+
+.btn-responsive {
+  width: 100%;
+  max-width: 500px;
+}
+

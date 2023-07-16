@@ -1,0 +1,13 @@
+*{
+  overflow-x: hidden;
+}
+
+.BgImage{
+  background-image: url('./Images/pokemon_bg.png');
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+};
+
